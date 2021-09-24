@@ -45,3 +45,13 @@ section {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
+article a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #3783a3;
+  border-style: solid;
+  border-radius: .3rem;
+  padding-left: 1em;
+  padding-right: 1em;
+}
