@@ -4,6 +4,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
+  margin: 1.5rem
 }
 
 *,
@@ -21,7 +22,26 @@ body {
   margin: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  text-align: center;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+div {
+  text-align: center;
+  font-size: 2rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
