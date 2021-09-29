@@ -184,6 +184,7 @@ article img {
     margin-left: 2em;
     margin-right: 2em;
     padding-top: 1rem;
+    margin-bottom: 0;
   }
 
 }
@@ -198,6 +199,7 @@ div i {
 
 footer {
   padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 section a {
