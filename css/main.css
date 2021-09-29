@@ -4,7 +4,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
-  margin: 1.5rem;
+  margin: 1rem;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -37,10 +37,23 @@ h1 {
   text-align: center;
   flex-direction: column;
   margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+h1 > i {
+  font-size: 1.5rem;
 }
 
 h1 span {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+
+}
+
+nav {
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -48,16 +61,20 @@ nav li {
   text-align: center;
   justify-content: space-between;
   margin-top: 0;
+  padding-top: 0;
 }
 
 li a {
-    color: #3783a3;
-    font-size: 1.5rem;
+  color: #3783a3;
+  font-size: 1rem;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 img {
   display: block;
   width: 100%;
+  margin-top: 0;
 }
 
 div {
@@ -70,13 +87,17 @@ div {
 }
 
 div > i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
+div p {
+  padding-bottom: 1.5rem;
+}
+
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 main {
@@ -99,28 +120,30 @@ h3 {
 
 article p {
   padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 article a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #3783a3;
   border-style: solid;
   border-radius: .3rem;
   padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-left: 1rem;
   display: block;
 }
 
 /*
-  padding-left: 1rem;
-  padding-right: 6rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+padding-left: 1rem;
+padding-right: 6rem;
+padding-top: .5rem;
+padding-bottom: .5rem;
 }
 */
 article img {
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   padding-top: .5rem;
 }
 
