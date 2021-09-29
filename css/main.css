@@ -42,12 +42,12 @@ h1 {
 }
 
 h1 > i {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h1 span {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  margin: 0;
 
 }
 
@@ -60,8 +60,8 @@ nav li {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li a {
@@ -149,6 +149,25 @@ article img {
 
 @media only screen and (min-width: 38em) {
 
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h1 {
+    display: flex;
+    text-align: left;
+    margin: 0;
+  }
+
+  nav li {
+    display: flex;
+    text-align: right;
+    /*
+    justify-content: flex-end;*/
+  }
+
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -162,6 +181,8 @@ article img {
   }
 
 }
+
+nav a
 
 @media only screen and (min-width: 62.5em) {
 
