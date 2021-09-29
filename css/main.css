@@ -79,6 +79,10 @@ p {
   font-size: 1.5rem;
 }
 
+main {
+  align-items: center;
+}
+
 section {
   display: grid;
   grid-template-columns: 1fr;
